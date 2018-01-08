@@ -1,4 +1,4 @@
-# Burp Extender API - Kotlin version
+# Burp Extender API - Unofficial Kotlin version
 
 This unofficial repository holds an unofficial Kotlin version of the [Burp Suite Pro Extender API](https://portswigger.net/burp/extender/)
 for building user extensions ([BApps](https://portswigger.net/bappstore/))
