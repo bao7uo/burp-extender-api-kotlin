@@ -24,4 +24,4 @@ Then build your plugin with:
 `kotlinc -cp burp-extender-api-kotlin.jar your_plugin*.kt -d your_plugin.jar`
 
 Alternatively you can build the api and plugin simultaneously. See build instructions in the README of the following project:
-- https://github.com/bao7uo/TargetLockOn
+- https://github.com/bao7uo/TargetRedirector
