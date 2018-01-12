@@ -1,4 +1,5 @@
 # Burp Extender API - Unofficial Kotlin version
+[![Language](https://img.shields.io/badge/Lang-Kotlin-blue.svg)](https://kotlinlang.org)
 
 Unofficial Kotlin version of the [Burp Suite Pro Extender API](https://portswigger.net/burp/extender/)
 for building user extensions ([BApps](https://portswigger.net/bappstore/))
@@ -24,4 +25,4 @@ Then build your plugin with:
 `kotlinc -cp burp-extender-api-kotlin.jar your_plugin*.kt -d your_plugin.jar`
 
 Alternatively you can build the api and plugin simultaneously. See build instructions in the README of the following project:
-- https://github.com/bao7uo/TargetRedirector
+- https://github.com/bao7uo/target-redirector
