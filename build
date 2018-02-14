@@ -1,0 +1,6 @@
+# api
+kotlinc src/main/kotlin/burp/*.kt -d burp-extender-api-kotlin.jar
+
+# example
+kotlinc -include-runtime ./src/main/kotlin/burp/*.kt burp-kotlin-test-interface-constants.kt -d burp-kotlin-test-interface-constants.jar
+

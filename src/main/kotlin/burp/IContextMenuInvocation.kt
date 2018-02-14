@@ -103,56 +103,56 @@ interface IContextMenuInvocation {
          * Used to indicate that the context menu is being invoked in a request
          * editor.
          */
-        val CONTEXT_MESSAGE_EDITOR_REQUEST: Byte = 0
+        const val CONTEXT_MESSAGE_EDITOR_REQUEST: Byte = 0
         /**
          * Used to indicate that the context menu is being invoked in a response
          * editor.
          */
-        val CONTEXT_MESSAGE_EDITOR_RESPONSE: Byte = 1
+        const val CONTEXT_MESSAGE_EDITOR_RESPONSE: Byte = 1
         /**
          * Used to indicate that the context menu is being invoked in a non-editable
          * request viewer.
          */
-        val CONTEXT_MESSAGE_VIEWER_REQUEST: Byte = 2
+        const val CONTEXT_MESSAGE_VIEWER_REQUEST: Byte = 2
         /**
          * Used to indicate that the context menu is being invoked in a non-editable
          * response viewer.
          */
-        val CONTEXT_MESSAGE_VIEWER_RESPONSE: Byte = 3
+        const val CONTEXT_MESSAGE_VIEWER_RESPONSE: Byte = 3
         /**
          * Used to indicate that the context menu is being invoked in the Target
          * site map tree.
          */
-        val CONTEXT_TARGET_SITE_MAP_TREE: Byte = 4
+        const val CONTEXT_TARGET_SITE_MAP_TREE: Byte = 4
         /**
          * Used to indicate that the context menu is being invoked in the Target
          * site map table.
          */
-        val CONTEXT_TARGET_SITE_MAP_TABLE: Byte = 5
+        const val CONTEXT_TARGET_SITE_MAP_TABLE: Byte = 5
         /**
          * Used to indicate that the context menu is being invoked in the Proxy
          * history.
          */
-        val CONTEXT_PROXY_HISTORY: Byte = 6
+        const val CONTEXT_PROXY_HISTORY: Byte = 6
         /**
          * Used to indicate that the context menu is being invoked in the Scanner
          * results.
          */
-        val CONTEXT_SCANNER_RESULTS: Byte = 7
+        const val CONTEXT_SCANNER_RESULTS: Byte = 7
         /**
          * Used to indicate that the context menu is being invoked in the Intruder
          * payload positions editor.
          */
-        val CONTEXT_INTRUDER_PAYLOAD_POSITIONS: Byte = 8
+        const val CONTEXT_INTRUDER_PAYLOAD_POSITIONS: Byte = 8
         /**
          * Used to indicate that the context menu is being invoked in an Intruder
          * attack results.
          */
-        val CONTEXT_INTRUDER_ATTACK_RESULTS: Byte = 9
+        const val CONTEXT_INTRUDER_ATTACK_RESULTS: Byte = 9
         /**
          * Used to indicate that the context menu is being invoked in a search
          * results window.
          */
-        val CONTEXT_SEARCH_RESULTS: Byte = 10
+        const val CONTEXT_SEARCH_RESULTS: Byte = 10
     }
 }

@@ -84,52 +84,52 @@ interface IScannerInsertionPoint {
          * Used to indicate where the payload is inserted into the value of a URL
          * parameter.
          */
-        val INS_PARAM_URL: Byte = 0x00
+        const val INS_PARAM_URL: Byte = 0x00
         /**
          * Used to indicate where the payload is inserted into the value of a body
          * parameter.
          */
-        val INS_PARAM_BODY: Byte = 0x01
+        const val INS_PARAM_BODY: Byte = 0x01
         /**
          * Used to indicate where the payload is inserted into the value of an HTTP
          * cookie.
          */
-        val INS_PARAM_COOKIE: Byte = 0x02
+        const val INS_PARAM_COOKIE: Byte = 0x02
         /**
          * Used to indicate where the payload is inserted into the value of an item
          * of data within an XML data structure.
          */
-        val INS_PARAM_XML: Byte = 0x03
+        const val INS_PARAM_XML: Byte = 0x03
         /**
          * Used to indicate where the payload is inserted into the value of a tag
          * attribute within an XML structure.
          */
-        val INS_PARAM_XML_ATTR: Byte = 0x04
+        const val INS_PARAM_XML_ATTR: Byte = 0x04
         /**
          * Used to indicate where the payload is inserted into the value of a
          * parameter attribute within a multi-part message body (such as the name of
          * an uploaded file).
          */
-        val INS_PARAM_MULTIPART_ATTR: Byte = 0x05
+        const val INS_PARAM_MULTIPART_ATTR: Byte = 0x05
         /**
          * Used to indicate where the payload is inserted into the value of an item
          * of data within a JSON structure.
          */
-        val INS_PARAM_JSON: Byte = 0x06
+        const val INS_PARAM_JSON: Byte = 0x06
         /**
          * Used to indicate where the payload is inserted into the value of an AMF
          * parameter.
          */
-        val INS_PARAM_AMF: Byte = 0x07
+        const val INS_PARAM_AMF: Byte = 0x07
         /**
          * Used to indicate where the payload is inserted into the value of an HTTP
          * request header.
          */
-        val INS_HEADER: Byte = 0x20
+        const val INS_HEADER: Byte = 0x20
         /**
          * Used to indicate where the payload is inserted into a URL path folder.
          */
-        val INS_URL_PATH_FOLDER: Byte = 0x21
+        const val INS_URL_PATH_FOLDER: Byte = 0x21
         /**
          * Used to indicate where the payload is inserted into a URL path folder.
          */
@@ -139,37 +139,37 @@ interface IScannerInsertionPoint {
          * Used to indicate where the payload is inserted into the name of an added
          * URL parameter.
          */
-        val INS_PARAM_NAME_URL: Byte = 0x22
+        const val INS_PARAM_NAME_URL: Byte = 0x22
         /**
          * Used to indicate where the payload is inserted into the name of an added
          * body parameter.
          */
-        val INS_PARAM_NAME_BODY: Byte = 0x23
+        const val INS_PARAM_NAME_BODY: Byte = 0x23
         /**
          * Used to indicate where the payload is inserted into the body of the HTTP
          * request.
          */
-        val INS_ENTIRE_BODY: Byte = 0x24
+        const val INS_ENTIRE_BODY: Byte = 0x24
         /**
          * Used to indicate where the payload is inserted into the URL path
          * filename.
          */
-        val INS_URL_PATH_FILENAME: Byte = 0x25
+        const val INS_URL_PATH_FILENAME: Byte = 0x25
         /**
          * Used to indicate where the payload is inserted at a location manually
          * configured by the user.
          */
-        val INS_USER_PROVIDED: Byte = 0x40
+        const val INS_USER_PROVIDED: Byte = 0x40
         /**
          * Used to indicate where the insertion point is provided by an
          * extension-registered
          * `IScannerInsertionPointProvider`.
          */
-        val INS_EXTENSION_PROVIDED: Byte = 0x41
+        const val INS_EXTENSION_PROVIDED: Byte = 0x41
         /**
          * Used to indicate where the payload is inserted at an unknown location
          * within the request.
          */
-        val INS_UNKNOWN: Byte = 0x7f
+        const val INS_UNKNOWN: Byte = 0x7f
     }
 }

@@ -67,30 +67,30 @@ interface IRequestInfo {
         /**
          * Used to indicate that there is no content.
          */
-        val CONTENT_TYPE_NONE: Byte = 0
+        const val CONTENT_TYPE_NONE: Byte = 0
         /**
          * Used to indicate URL-encoded content.
          */
-        val CONTENT_TYPE_URL_ENCODED: Byte = 1
+        const val CONTENT_TYPE_URL_ENCODED: Byte = 1
         /**
          * Used to indicate multi-part content.
          */
-        val CONTENT_TYPE_MULTIPART: Byte = 2
+        const val CONTENT_TYPE_MULTIPART: Byte = 2
         /**
          * Used to indicate XML content.
          */
-        val CONTENT_TYPE_XML: Byte = 3
+        const val CONTENT_TYPE_XML: Byte = 3
         /**
          * Used to indicate JSON content.
          */
-        val CONTENT_TYPE_JSON: Byte = 4
+        const val CONTENT_TYPE_JSON: Byte = 4
         /**
          * Used to indicate AMF content.
          */
-        val CONTENT_TYPE_AMF: Byte = 5
+        const val CONTENT_TYPE_AMF: Byte = 5
         /**
          * Used to indicate unknown content.
          */
-        val CONTENT_TYPE_UNKNOWN: Byte = -1
+        const val CONTENT_TYPE_UNKNOWN: Byte = -1
     }
 }

@@ -1042,46 +1042,46 @@ interface IBurpExtenderCallbacks {
         /**
          * Flag used to identify Burp Suite as a whole.
          */
-        val TOOL_SUITE = 0x00000001
+        const val TOOL_SUITE = 0x00000001
         /**
          * Flag used to identify the Burp Target tool.
          */
-        val TOOL_TARGET = 0x00000002
+        const val TOOL_TARGET = 0x00000002
         /**
          * Flag used to identify the Burp Proxy tool.
          */
-        val TOOL_PROXY = 0x00000004
+        const val TOOL_PROXY = 0x00000004
         /**
          * Flag used to identify the Burp Spider tool.
          */
-        val TOOL_SPIDER = 0x00000008
+        const val TOOL_SPIDER = 0x00000008
         /**
          * Flag used to identify the Burp Scanner tool.
          */
-        val TOOL_SCANNER = 0x00000010
+        const val TOOL_SCANNER = 0x00000010
         /**
          * Flag used to identify the Burp Intruder tool.
          */
-        val TOOL_INTRUDER = 0x00000020
+        const val TOOL_INTRUDER = 0x00000020
         /**
          * Flag used to identify the Burp Repeater tool.
          */
-        val TOOL_REPEATER = 0x00000040
+        const val TOOL_REPEATER = 0x00000040
         /**
          * Flag used to identify the Burp Sequencer tool.
          */
-        val TOOL_SEQUENCER = 0x00000080
+        const val TOOL_SEQUENCER = 0x00000080
         /**
          * Flag used to identify the Burp Decoder tool.
          */
-        val TOOL_DECODER = 0x00000100
+        const val TOOL_DECODER = 0x00000100
         /**
          * Flag used to identify the Burp Comparer tool.
          */
-        val TOOL_COMPARER = 0x00000200
+        const val TOOL_COMPARER = 0x00000200
         /**
          * Flag used to identify the Burp Extender tool.
          */
-        val TOOL_EXTENDER = 0x00000400
+        const val TOOL_EXTENDER = 0x00000400
     }
 }
