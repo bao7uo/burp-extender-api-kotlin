@@ -45,7 +45,7 @@ interface IMessageEditorTab {
      *
      * @return The currently displayed message.
      */
-    val message: ByteArray
+    val message: ByteArray?
 
     /**
      * This method is used to determine whether the currently displayed message
@@ -67,7 +67,7 @@ interface IMessageEditorTab {
      * @return The data that is currently selected by the user. This may be
      * `null` if no selection is currently made.
      */
-    val selectedData: ByteArray
+    val selectedData: ByteArray?
 
     /**
      * The hosting editor will invoke this method before it displays a new HTTP
@@ -98,5 +98,5 @@ interface IMessageEditorTab {
      * @param isRequest Indicates whether the message is a request or a
      * response.
      */
-    fun setMessage(content: ByteArray, isRequest: Boolean)
+    fun setMessage(content: ByteArray?, isRequest: Boolean)
 }
