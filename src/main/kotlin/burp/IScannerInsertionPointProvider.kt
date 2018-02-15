@@ -22,7 +22,7 @@ interface IScannerInsertionPointProvider {
      * request.
      */
     fun getInsertionPoints(
-            baseRequestResponse: IHttpRequestResponse): List<IScannerInsertionPoint>
+            baseRequestResponse: IHttpRequestResponse): List<IScannerInsertionPoint>?
 }/*
  * @(#)IScannerInsertionPointProvider.java
  *

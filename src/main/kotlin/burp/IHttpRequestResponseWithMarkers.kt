@@ -18,7 +18,7 @@ interface IHttpRequestResponseWithMarkers : IHttpRequestResponse {
      * start and end offsets for the marker. The method may return
      * `null` if no request markers are defined.
      */
-    val requestMarkers: List<IntArray>
+    val requestMarkers: List<IntArray>?
 
     /**
      * This method returns the details of the response markers.
@@ -28,7 +28,7 @@ interface IHttpRequestResponseWithMarkers : IHttpRequestResponse {
      * start and end offsets for the marker. The method may return
      * `null` if no response markers are defined.
      */
-    val responseMarkers: List<IntArray>
+    val responseMarkers: List<IntArray>?
 }/*
  * @(#)IHttpRequestResponseWithMarkers.java
  *

@@ -26,7 +26,7 @@ interface ICookie {
      * `null` if the response did not explicitly set a domain
      * attribute for the cookie.
      */
-    val domain: String
+    val domain: String?
 
     /**
      * This method is used to retrieve the path for which the cookie is in
@@ -34,7 +34,7 @@ interface ICookie {
      *
      * @return The path for which the cookie is in scope or null if none is set.
      */
-    val path: String
+    val path: String?
 
     /**
      * This method is used to retrieve the expiration time for the cookie.
@@ -43,7 +43,7 @@ interface ICookie {
      * `null` if none is set (i.e., for non-persistent session
      * cookies).
      */
-    val expiration: Date
+    val expiration: Date?
 
     /**
      * This method is used to retrieve the name of the cookie.

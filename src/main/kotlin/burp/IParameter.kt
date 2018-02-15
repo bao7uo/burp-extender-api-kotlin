@@ -27,7 +27,7 @@ interface IParameter {
      *
      * @return The parameter name.
      */
-    val name: String
+    val name: String?
 
     /**
      * This method is used to retrieve the parameter value.
