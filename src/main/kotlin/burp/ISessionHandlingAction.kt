@@ -46,5 +46,5 @@ interface ISessionHandlingAction {
      */
     fun performAction(
             currentRequest: IHttpRequestResponse,
-            macroItems: Array<IHttpRequestResponse>)
+            macroItems: Array<IHttpRequestResponse>?)
 }

@@ -67,7 +67,7 @@ interface IScanIssue {
      * `null` if none applies. A limited set of HTML tags may be
      * used.
      */
-    val issueBackground: String
+    val issueBackground: String?
 
     /**
      * This method returns a background description of the remediation for this
@@ -77,7 +77,7 @@ interface IScanIssue {
      * issue, or `null` if none applies. A limited set of HTML tags
      * may be used.
      */
-    val remediationBackground: String
+    val remediationBackground: String?
 
     /**
      * This method returns detailed information about this specific instance of
@@ -87,7 +87,7 @@ interface IScanIssue {
      * or `null` if none applies. A limited set of HTML tags may be
      * used.
      */
-    val issueDetail: String
+    val issueDetail: String?
 
     /**
      * This method returns detailed information about the remediation for this
@@ -97,7 +97,7 @@ interface IScanIssue {
      * instance of the issue, or `null` if none applies. A limited
      * set of HTML tags may be used.
      */
-    val remediationDetail: String
+    val remediationDetail: String?
 
     /**
      * This method returns the HTTP messages on the basis of which the issue was

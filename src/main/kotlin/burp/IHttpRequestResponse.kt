@@ -40,7 +40,7 @@ interface IHttpRequestResponse {
      *
      * @param message The new response message.
      */
-    var response: ByteArray
+    var response: ByteArray?
 
     /**
      * This method is used to retrieve the user-annotated comment for this item,
@@ -53,7 +53,7 @@ interface IHttpRequestResponse {
      *
      * @param comment The comment to be assigned to this item.
      */
-    var comment: String
+    var comment: String?
 
     /**
      * This method is used to retrieve the user-annotated highlight for this
@@ -69,7 +69,7 @@ interface IHttpRequestResponse {
      * values are: red, orange, yellow, green, cyan, blue, pink, magenta, gray,
      * or a null String to clear any existing highlight.
      */
-    var highlight: String
+    var highlight: String?
 
     /**
      * This method is used to retrieve the HTTP service for this request /
