@@ -36,7 +36,7 @@ interface IIntruderPayloadGenerator {
      * in a battering ram attack).
      * @return The next payload to use in the attack.
      */
-    fun getNextPayload(baseValue: ByteArray): ByteArray
+    fun getNextPayload(baseValue: ByteArray?): ByteArray
 
     /**
      * This method is used by Burp to reset the state of the payload generator

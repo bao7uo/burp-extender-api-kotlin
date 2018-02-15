@@ -32,6 +32,6 @@ interface IMessageEditorTabFactory {
      * @return A new
      * `IMessageEditorTab` object for use within the message editor.
      */
-    fun createNewInstance(controller: IMessageEditorController,
+    fun createNewInstance(controller: IMessageEditorController?,
                           editable: Boolean): IMessageEditorTab
 }

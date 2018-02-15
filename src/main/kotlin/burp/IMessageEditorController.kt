@@ -36,7 +36,7 @@ interface IMessageEditorController {
      *
      * @return The HTTP request associated with the current message.
      */
-    val request: ByteArray
+    val request: ByteArray?
 
     /**
      * This method is used to retrieve the HTTP response associated with the
@@ -44,5 +44,5 @@ interface IMessageEditorController {
      *
      * @return The HTTP response associated with the current message.
      */
-    val response: ByteArray
+    val response: ByteArray?
 }

@@ -85,7 +85,7 @@ interface IContextMenuInvocation {
      * context menu was invoked. This method returns `null` if no
      * messages are applicable to the invocation.
      */
-    val selectedMessages: Array<IHttpRequestResponse>
+    val selectedMessages: Array<IHttpRequestResponse>?
 
     /**
      * This method can be used to retrieve details of the Scanner issues that
@@ -96,7 +96,7 @@ interface IContextMenuInvocation {
      * This method returns `null` if no Scanner issues are applicable
      * to the invocation.
      */
-    val selectedIssues: Array<IScanIssue>
+    val selectedIssues: Array<IScanIssue>?
 
     companion object {
         /**
