@@ -33,7 +33,7 @@ interface IScannerInsertionPoint {
      * request being scanned, or `null` if there is no value in the
      * base request that corresponds to this insertion point.
      */
-    val baseValue: String
+    val baseValue: String?
 
     /**
      * This method returns the type of the insertion point.

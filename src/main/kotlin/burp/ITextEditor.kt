@@ -36,7 +36,7 @@ interface ITextEditor {
      *
      * @param text The text to be displayed.
      */
-    var text: ByteArray
+    var text: ByteArray?
 
     /**
      * This method is used to determine whether the user has modified the
@@ -54,7 +54,7 @@ interface ITextEditor {
      * @return The currently selected text, or
      * `null` if the user has not made any selection.
      */
-    val selectedText: ByteArray
+    val selectedText: ByteArray?
 
     /**
      * This method can be used to retrieve the bounds of the user's selection
