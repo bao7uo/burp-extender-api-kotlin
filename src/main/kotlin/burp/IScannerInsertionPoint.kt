@@ -76,7 +76,7 @@ interface IScannerInsertionPoint {
      * data structure, the raw payload may not literally appear anywhere within
      * the resulting request).
      */
-    fun getPayloadOffsets(payload: ByteArray): IntArray
+    fun getPayloadOffsets(payload: ByteArray): IntArray?
 
     companion object {
 
