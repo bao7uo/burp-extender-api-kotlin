@@ -31,7 +31,7 @@ interface IRequestInfo {
      *
      * @return The URL in the request.
      */
-    val url: URL
+    val url: URL?
 
     /**
      * This method is used to obtain the HTTP headers contained in the request.
